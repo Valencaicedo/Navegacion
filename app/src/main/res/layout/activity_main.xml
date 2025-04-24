@@ -7,13 +7,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="599dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/_c62da5216f9574c6ac5ca8844e0445f228d619d" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="133dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#32D69F"
+        android:text="Iniciar sesión"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="577dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

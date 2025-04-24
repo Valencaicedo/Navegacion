@@ -16,6 +16,15 @@
             android:name=".IniciosesionActivity"
             android:exported="false" />
         <activity
+            android:name=".QuitarFragmentoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DosPalabrasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DosMitadesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
