@@ -7,4 +7,143 @@
     android:layout_height="match_parent"
     tools:context=".DosMitadesActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Esto usa Roboto por defecto en Android --><![CDATA[
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="475dp" />
+
+
+    ]]>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#4EF1B0"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <TextView
+            android:id="@+id/topBarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="136dp"
+            android:text="Dos mitades"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.529" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+            tools:layout_editor_absoluteX="353dp"
+            tools:layout_editor_absoluteY="12dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="316dp"
+        android:layout_height="224dp"
+        android:text="@string/dos_mitades"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="300dp"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:inputType="text"
+        android:letterSpacing="0.1"
+        android:text="Name"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.166"
+        tools:layout_editor_absoluteX="55dp" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="133dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#32D69F"
+        android:text="Solucionar"
+        android:textColor="@android:color/black"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="523dp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#4EF1B0"
+        android:padding="8dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="652dp" >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/group_btn_account"
+            tools:layout_editor_absoluteX="181dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/btn_configuraci_n"
+            tools:layout_editor_absoluteX="285dp"
+            tools:layout_editor_absoluteY="-8dp" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/btn_cuenta"
+            tools:layout_editor_absoluteX="141dp"
+            tools:layout_editor_absoluteY="-8dp" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/group_btn_settings"
+            tools:layout_editor_absoluteX="329dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            app:srcCompat="@drawable/btn_principal"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/diagram_2_fill"
+            tools:layout_editor_absoluteX="48dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    > </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
