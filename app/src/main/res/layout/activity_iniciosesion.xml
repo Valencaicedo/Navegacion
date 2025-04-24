@@ -48,7 +48,7 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/topBar"
+        android:id="@+id/EndBar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="#4EF1B0"
