@@ -2,6 +2,7 @@ package com.example.navegacion
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -20,10 +21,18 @@ class IniciosesionActivity : AppCompatActivity() {
             insets
         }
 
-        // botón de regreso
+        // Botón para regresar al MainActivity
         val btnRegresar = findViewById<ImageView>(R.id.btn_regresaramain)
         btnRegresar.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        // Botón para ir a DosMitadesActivity
+        val btnIngresar = findViewById<Button>(R.id.btnIngresar)
+        btnIngresar.setOnClickListener {
+            val intent = Intent(this, DosMitadesActivity::class.java)
             startActivity(intent)
             finish()
         }
